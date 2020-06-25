@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/gostack-github-explorer/static/js/main.9e05b1d7.chunk.js",
-    "main.js.map": "/gostack-github-explorer/static/js/main.9e05b1d7.chunk.js.map",
+    "main.js": "/gostack-github-explorer/static/js/main.9ed8d2fe.chunk.js",
+    "main.js.map": "/gostack-github-explorer/static/js/main.9ed8d2fe.chunk.js.map",
     "runtime-main.js": "/gostack-github-explorer/static/js/runtime-main.1c585a61.js",
     "runtime-main.js.map": "/gostack-github-explorer/static/js/runtime-main.1c585a61.js.map",
     "static/js/2.538c7708.chunk.js": "/gostack-github-explorer/static/js/2.538c7708.chunk.js",
     "static/js/2.538c7708.chunk.js.map": "/gostack-github-explorer/static/js/2.538c7708.chunk.js.map",
     "index.html": "/gostack-github-explorer/index.html",
-    "precache-manifest.1b02a3a93ee7d43cd5e0c4fc353b6979.js": "/gostack-github-explorer/precache-manifest.1b02a3a93ee7d43cd5e0c4fc353b6979.js",
+    "precache-manifest.2e82581e616e47820e30774793113a73.js": "/gostack-github-explorer/precache-manifest.2e82581e616e47820e30774793113a73.js",
     "service-worker.js": "/gostack-github-explorer/service-worker.js",
     "static/js/2.538c7708.chunk.js.LICENSE.txt": "/gostack-github-explorer/static/js/2.538c7708.chunk.js.LICENSE.txt",
     "static/media/bg.svg": "/gostack-github-explorer/static/media/bg.0b819d63.svg",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.1c585a61.js",
     "static/js/2.538c7708.chunk.js",
-    "static/js/main.9e05b1d7.chunk.js"
+    "static/js/main.9ed8d2fe.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e565d9eb3733a6842565a39b665723d9",
+    "revision": "44577554cfdf0f5ef957e3be9d287040",
     "url": "/gostack-github-explorer/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gostack-github-explorer/static/js/2.538c7708.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01f9a7a737c07b3c754d",
-    "url": "/gostack-github-explorer/static/js/main.9e05b1d7.chunk.js"
+    "revision": "617b6ece4b9500072c3f",
+    "url": "/gostack-github-explorer/static/js/main.9ed8d2fe.chunk.js"
   },
   {
     "revision": "f120c6388aeabe4e7c74",
