@@ -74,6 +74,21 @@ export const RepositoryInfo = styled.section`
         margin-top: 4px;
         color: #6c6c80;
       }
+
+      &.stars > strong,
+      &.stars > span {
+        color: #fde200;
+      }
+
+      &.forks > strong,
+      &.forks > span {
+        color: #3c96d4;
+      }
+
+      &.issues > strong,
+      &.issues > span {
+        color: #e5433d;
+      }
     }
   }
 `;

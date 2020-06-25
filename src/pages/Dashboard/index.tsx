@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FiChevronRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/logo.svg';
+import Logo from '../../components/Logo';
 import dataConfig from '../../config/data';
 import api from '../../services/api';
 import { Error, Form, Repositories, Title } from './styles';
@@ -86,16 +86,19 @@ const Dashboard: React.FC = () => {
 
   return (
     <>
-      <img src={logo} alt="Github Explorer" title="Github Explorer" />
+      <Logo />
       <Title>Explore repositórios no Github</Title>
 
       <Form hasError={!!inputError} onSubmit={handleAddRepository}>
         <input
+          type="text"
           value={newRepo}
-          onChange={(e) => setNewRepo(e.target.value)}
+          onChange={(e) => setNewRepo(e.target.value.toLowerCase())}
           placeholder="Digite o nome do repositório"
         />
-        <button type="submit">Pesquisar</button>
+        <button type="submit" title="Pesquisar repositório">
+          Pesquisar
+        </button>
       </Form>
 
       {inputError && <Error>{inputError}</Error>}
