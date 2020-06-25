@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e2ccb2aa9a7cd79be8182b72012a426",
+    "revision": "0153537b8c24e7660cd954ea16d78c89",
     "url": "/gostack-github-explorer/index.html"
   },
   {
