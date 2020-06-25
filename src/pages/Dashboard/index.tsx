@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FiChevronRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
+import dataConfig from '../../config/data';
 import api from '../../services/api';
 import { Error, Form, Repositories, Title } from './styles';
 
@@ -15,21 +16,26 @@ interface Repository {
   };
 }
 
-const LOCALSTORAGE_KEY = '@GithubExplore:repositories';
-const NEW_REPO_SUGGESTION = 'alextavella/gostack-typeorm-upload';
-
 const Dashboard: React.FC = () => {
-  const [newRepo, setNewRepo] = useState<string>(NEW_REPO_SUGGESTION);
+  const [newRepo, setNewRepo] = useState<string>('');
 
   const [inputError, setInputError] = useState<string>('');
 
   const [repositories, setRepositories] = useState<Repository[]>(() => {
-    const repos = localStorage.getItem(LOCALSTORAGE_KEY);
-    return repos ? JSON.parse(repos) : [];
+    const repos = localStorage.getItem(dataConfig.key);
+
+    if (repos) {
+      const local = JSON.parse(repos);
+      if (Array.isArray(local)) {
+        return local;
+      }
+    }
+
+    return dataConfig.data;
   });
 
   useEffect(() => {
-    localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(repositories));
+    localStorage.setItem(dataConfig.key, JSON.stringify(repositories));
   }, [repositories]);
 
   async function handleAddRepository(
@@ -80,7 +86,7 @@ const Dashboard: React.FC = () => {
 
   return (
     <>
-      <img src={logo} alt="Github Explorer" />
+      <img src={logo} alt="Github Explorer" title="Github Explorer" />
       <Title>Explore repositórios no Github</Title>
 
       <Form hasError={!!inputError} onSubmit={handleAddRepository}>

@@ -42,7 +42,7 @@ export const RepositoryInfo = styled.section`
 
       strong {
         font-size: 36px;
-        color: #3d3d4bd;
+        color: #3d3d4b;
       }
 
       p {
@@ -60,7 +60,7 @@ export const RepositoryInfo = styled.section`
 
     > li {
       & + li {
-        margin-left: 80px;
+        margin-left: 20px;
       }
 
       strong {

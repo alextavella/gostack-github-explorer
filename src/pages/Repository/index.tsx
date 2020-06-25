@@ -24,6 +24,7 @@ interface Repository {
 interface Issue {
   id: string;
   title: string;
+  html_url: string;
   user: {
     login: string;
   };
@@ -56,13 +57,12 @@ const Respository: React.FC = () => {
   return (
     <>
       <Header>
-        <img src={logo} alt="Github Explorer" />
-        <Link to="/">
+        <img src={logo} alt="Github Explorer" title="Github Explorer" />
+        <Link to="/" title="Voltar">
           <FiChevronLeft size={16} />
           Voltar
         </Link>
       </Header>
-
       {repository && (
         <RepositoryInfo>
           <header>
@@ -92,17 +92,19 @@ const Respository: React.FC = () => {
         </RepositoryInfo>
       )}
 
-      {issues.map((issue) => (
-        <Issues>
-          <Link key={issue.id} to="/">
-            <div>
-              <strong>{issue.title}</strong>
-              <p>{issue.user}</p>
-            </div>
-            <FiChevronRight size={20} />
-          </Link>
-        </Issues>
-      ))}
+      <Issues>
+        {issues.map((issue) => (
+          <a key={issue.id} href={issue.html_url} title={issue.title}>
+            <>
+              <div>
+                <strong>{issue.title}</strong>
+                <p>{issue.user.login}</p>
+              </div>
+              <FiChevronRight size={20} />
+            </>
+          </a>
+        ))}
+      </Issues>
     </>
   );
 };
