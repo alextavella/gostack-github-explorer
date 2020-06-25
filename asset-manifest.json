@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/gostack-github-explorer/static/js/main.f8c057a2.chunk.js",
-    "main.js.map": "/gostack-github-explorer/static/js/main.f8c057a2.chunk.js.map",
+    "main.js": "/gostack-github-explorer/static/js/main.2376dde8.chunk.js",
+    "main.js.map": "/gostack-github-explorer/static/js/main.2376dde8.chunk.js.map",
     "runtime-main.js": "/gostack-github-explorer/static/js/runtime-main.1c585a61.js",
     "runtime-main.js.map": "/gostack-github-explorer/static/js/runtime-main.1c585a61.js.map",
-    "static/js/2.71632a64.chunk.js": "/gostack-github-explorer/static/js/2.71632a64.chunk.js",
-    "static/js/2.71632a64.chunk.js.map": "/gostack-github-explorer/static/js/2.71632a64.chunk.js.map",
+    "static/js/2.abd88781.chunk.js": "/gostack-github-explorer/static/js/2.abd88781.chunk.js",
+    "static/js/2.abd88781.chunk.js.map": "/gostack-github-explorer/static/js/2.abd88781.chunk.js.map",
     "index.html": "/gostack-github-explorer/index.html",
-    "precache-manifest.bb096cacbc80cf47f6b7855edec328f2.js": "/gostack-github-explorer/precache-manifest.bb096cacbc80cf47f6b7855edec328f2.js",
+    "precache-manifest.7e462d275b06a04dbfaf92678f333ff7.js": "/gostack-github-explorer/precache-manifest.7e462d275b06a04dbfaf92678f333ff7.js",
     "service-worker.js": "/gostack-github-explorer/service-worker.js",
-    "static/js/2.71632a64.chunk.js.LICENSE.txt": "/gostack-github-explorer/static/js/2.71632a64.chunk.js.LICENSE.txt",
+    "static/js/2.abd88781.chunk.js.LICENSE.txt": "/gostack-github-explorer/static/js/2.abd88781.chunk.js.LICENSE.txt",
     "static/media/bg.svg": "/gostack-github-explorer/static/media/bg.0b819d63.svg",
     "static/media/logo.svg": "/gostack-github-explorer/static/media/logo.04f6798f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1c585a61.js",
-    "static/js/2.71632a64.chunk.js",
-    "static/js/main.f8c057a2.chunk.js"
+    "static/js/2.abd88781.chunk.js",
+    "static/js/main.2376dde8.chunk.js"
   ]
 }
