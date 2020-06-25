@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d974deb7221b5526530ba5795bb36e9",
+    "revision": "e4e8781be29b1210aa6fe491225ab405",
     "url": "/gostack-github-explorer/index.html"
   },
   {
-    "revision": "b3dbc1f2b30e6c796c40",
-    "url": "/gostack-github-explorer/static/js/2.538c7708.chunk.js"
+    "revision": "7b5c79abbb9281403547",
+    "url": "/gostack-github-explorer/static/js/2.e2f88d65.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/gostack-github-explorer/static/js/2.538c7708.chunk.js.LICENSE.txt"
+    "url": "/gostack-github-explorer/static/js/2.e2f88d65.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c10f57543be7c118589c",
-    "url": "/gostack-github-explorer/static/js/main.d03114fb.chunk.js"
+    "revision": "a48ea9db6d437ed9515d",
+    "url": "/gostack-github-explorer/static/js/main.6e478e3e.chunk.js"
   },
   {
     "revision": "f120c6388aeabe4e7c74",
