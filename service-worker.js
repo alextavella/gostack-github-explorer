@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gostack-github-explorer/precache-manifest.960a50f65432944d47e9f88af3fdbe2d.js"
+  "/gostack-github-explorer/precache-manifest.1b02a3a93ee7d43cd5e0c4fc353b6979.js"
 );
 
 self.addEventListener('message', (event) => {
