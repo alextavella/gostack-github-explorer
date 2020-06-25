@@ -5,7 +5,7 @@ import GlobalStyle from './styles/global';
 
 const App: React.FC = () => (
   <>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes />
     </BrowserRouter>
     <GlobalStyle />
